@@ -1,6 +1,6 @@
 /*
- * comic sample
-*/
+ * Interative comic framework
+ */
 
 function addPage(page, book) {
 
