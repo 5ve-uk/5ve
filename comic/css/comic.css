@@ -37,15 +37,15 @@ body{
 	position:absolute;
 	overflow:hidden;
 	background:#0066FF;
-	opacity:0.02;
+	opacity:0.2;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	-ms-border-radius:10px;
 	-o-border-radius:10px;
 	border-radius:10px;
 	cursor:pointer;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=2)";
-	filter: alpha(opacity=2);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
 }
 
 .comic .region:hover{
