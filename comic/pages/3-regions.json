@@ -1,7 +1,7 @@
 [{
-	"x":256,
-	"y":161,
-	"width":128,
+	"x":50,
+	"y":500,
+	"width":68,
 	"height":15,
 	"class":"to-page",
 	"data":
@@ -10,9 +10,9 @@
 		}
 },
 {
-	"x":256,
-	"y":202,
-	"width":114,
+	"x":150,
+	"y":500,
+	"width":68,
 	"height":15,
 	"class":"to-page",
 	"data":
@@ -21,9 +21,9 @@
 		}
 },
 {
-	"x":256,
-	"y":244,
-	"width":126,
+	"x":250,
+	"y":500,
+	"width":68,
 	"height":15,
 	"class":"to-page",
 	"data":
@@ -32,14 +32,14 @@
 		}
 },
 {
-	"x":256,
-	"y":286,
+	"x":350,
+	"y":500,
 	"width":68,
 	"height":15,
 	"class":"to-page",
 	"data":
 		{
-			"page": 12
+			"page": 14
 		}
 }
 ]
