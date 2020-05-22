@@ -1,6 +1,6 @@
 [{
 	"x":50,
-	"y":550,
+	"y":650,
 	"width":68,
 	"height":30,
 	"class":"to-page",
@@ -11,7 +11,7 @@
 },
 {
 	"x":160,
-	"y":550,
+	"y":650,
 	"width":68,
 	"height":30,
 	"class":"to-page",
@@ -22,7 +22,7 @@
 },
 {
 	"x":270,
-	"y":550,
+	"y":650,
 	"width":68,
 	"height":30,
 	"class":"to-page",
@@ -33,7 +33,7 @@
 },
 {
 	"x":380,
-	"y":550,
+	"y":650,
 	"width":68,
 	"height":30,
 	"class":"to-page",
