@@ -37,15 +37,15 @@ body{
 	position:absolute;
 	overflow:hidden;
 	background:#0066FF;
-	opacity:0.2;
+	opacity:0.02;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	-ms-border-radius:10px;
 	-o-border-radius:10px;
 	border-radius:10px;
 	cursor:pointer;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-	filter: alpha(opacity=20);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=2)";
+	filter: alpha(opacity=2);
 }
 
 .comic .region:hover{
@@ -55,15 +55,15 @@ body{
 }
 
 .comic .region.zoom{
-	opacity:0.01;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-	filter: alpha(opacity=1);
-}
-
-.comic .region.zoom:hover{
 	opacity:0.2;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
 	filter: alpha(opacity=20);
+}
+
+.comic .region.zoom:hover{
+	opacity:0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
 }
 
 .comic .page{
