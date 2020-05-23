@@ -27,16 +27,12 @@ function loadPage(page, pageElement) {
 	// Create an image element
 
 	var img = $('<img />');
-	var pnum = $('<img />');
+	//var pnum = $('<img />');
 
 	img.mousedown(function(e) {
 		e.preventDefault();
 	});
 	
-	pnum.load(function() {
-
-		$(this).appendTo(pageElement);
-	});
 	img.load(function() {
 		
 		// Set the size
@@ -54,7 +50,7 @@ function loadPage(page, pageElement) {
 	// Load the page
 
 	img.attr('src', 'pages/' +  page + '.jpg');
-	pnum.attr('src', 'pages/' +  page + '.png');  //page number graphic
+	//pnum.attr('src', 'pages/' +  page + '.png');  //page number graphic
 	loadRegions(page, pageElement);
 
 }
