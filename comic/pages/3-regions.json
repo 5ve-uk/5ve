@@ -19,7 +19,7 @@
 	"class":"to-page",
 	"data":
 		{
-			"page": 11
+			"page": 11,
 			"caption": "What if there are guards?",
 			"roll": "4-10 => 11"
 		}
@@ -32,7 +32,7 @@
 	"class":"to-page",
 	"data":
 		{
-			"page": 5
+			"page": 5,
 			"caption": "A Bear might live in there.",
 			"roll": "11-17 => 5"
 		}
@@ -45,7 +45,7 @@
 	"class":"to-page",
 	"data":
 		{
-			"page": 28
+			"page": 28,
 			"caption": "There's an art gallery there.",
 			"roll": "18-20 => 28"
 		}
