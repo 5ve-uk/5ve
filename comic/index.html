@@ -94,13 +94,6 @@ function loadApp() {
 			
 					// Update the current URI
 
-					if (page==18) { 
-						$(this).turn('display', 'double');
-						//$(this).turn('width', 1000);
-					} else {
-						$(this).turn('display', 'single');
-						//$(this).turn('width', 500);
-					}
 					
 					Hash.go('page/' + page).update();
 
@@ -125,6 +118,14 @@ function loadApp() {
 
 					disableControls(page);
 
+					if (page==18) { 
+						$(this).turn('display', 'double');
+						$(this).turn('width', 1000);
+					} else {
+						$(this).turn('display', 'single');
+						$(this).turn('width', 500);
+					}
+					
 					$(this).turn('center');
 
 					//if (page==1) { 
