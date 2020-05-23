@@ -32,7 +32,11 @@ function loadPage(page, pageElement) {
 	img.mousedown(function(e) {
 		e.preventDefault();
 	});
+	
+	pnum.load(function() {
 
+		$(this).appendTo(pageElement);
+	});
 	img.load(function() {
 		
 		// Set the size
