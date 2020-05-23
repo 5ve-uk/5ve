@@ -74,7 +74,7 @@ function loadApp() {
 
 			
 			// Display a single page except on double page spreads
-			display: 'single',
+			//display: 'single',
 			
 			// Elevation from the edge of the flipbook when turning a page
 			elevation: 50,
@@ -120,9 +120,11 @@ function loadApp() {
 
 					if (page==18) { 
 						$(this).turn('display', 'double');
+						$(this).turn('size', 1000, 756);
 						//$(this).turn('width', 1000);
 					} else {
 						$(this).turn('display', 'single');
+						$(this).turn('size', 500, 756);
 						//$(this).turn('width', 500);
 					}
 					
