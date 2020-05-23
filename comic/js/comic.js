@@ -49,7 +49,7 @@ function loadPage(page, pageElement) {
 	// Load the page
 
 	img.attr('src', 'pages/' +  page + '.jpg');
-	pageElement.html('<div>Page No.</div>');
+	img.attr('src', 'pages/' +  page + '.png');
 	loadRegions(page, pageElement);
 
 }
