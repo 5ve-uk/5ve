@@ -27,6 +27,7 @@ function loadPage(page, pageElement) {
 	// Create an image element
 
 	var img = $('<img />');
+	var pnum = $('<img />');
 
 	img.mousedown(function(e) {
 		e.preventDefault();
@@ -49,7 +50,7 @@ function loadPage(page, pageElement) {
 	// Load the page
 
 	img.attr('src', 'pages/' +  page + '.jpg');
-	img.attr('src', 'pages/' +  page + '.png');
+	pnum.attr('src', 'pages/' +  page + '.png');  //page number graphic
 	loadRegions(page, pageElement);
 
 }
