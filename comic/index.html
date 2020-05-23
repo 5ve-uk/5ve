@@ -94,10 +94,10 @@ function loadApp() {
 			
 					// Update the current URI
 
-					//if (page==18) { 
-					//	$(this).turn('display', 'double');
+					if (page==18) { 
+						$(this).turn('display', 'double');
 					//	$(this).turn('size', 1000, 756);
-					//}
+					}
 					
 					Hash.go('page/' + page).update();
 
@@ -219,10 +219,6 @@ function loadApp() {
 		$('.comic-viewport').bind('zoom.doubleTap', zoomTo);
 	else
 		$('.comic-viewport').bind('zoom.tap', zoomTo);
-	//if ($.isTouch)
-	//	$('.comic-viewport').bind('zoom.doubleTap', regionClick);
-	//else
-	//	$('.comic-viewport').bind('zoom.tap', regionClick);
 
 
 	// Using arrow keys to turn the page
