@@ -82,6 +82,21 @@ body{
 	-ms-user-select: none;
 	user-select: none;
 	margin:0;
+	z-index: 1;
+}
+
+.comic-viewport .page pnum{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+        position:absolute;
+        top: 25px;
+        left: 25px;
+        z-index: 2;
 }
 
 .comic .even .gradient{
