@@ -94,8 +94,8 @@ function addRegion(region, pageElement) {
 	
 	var reg = $('<div />', {'class': 'region  ' + region['class']}),
 		options = $('.comic').turn('options'),
-		//was pageWidth = options.width/2,
-	    	pageWidth = options.width,
+		pageWidth = options.width/2,
+	    	//pageWidth = options.width,
 		pageHeight = options.height;
 
 	reg.css({
